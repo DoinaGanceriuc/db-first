@@ -4,26 +4,26 @@
 
 ## (Table) auto_usate:
 
-- id
-- marca_auto
-- modello_auto
-- colore
-- anno_immatricolazione
-- km_percorsi
-- alimentazione
-- cilindrata_motore
-- potenza
-- classe_emissione
-- carrozzeria
-- posti_disponibili
-- numero_porte
-- cambio
-- prezzo
-- sconto
-- neopatentati
-- immagine_auto
-- numero_proprietari
-- note
+- id | BIGINT
+- marca_auto | VARCHAR(255)
+- modello_auto | VARCHAR(255)
+- colore | VARCHAR(50)
+- anno_immatricolazione | YEAR
+- km_percorsi | MEDIUMINT
+- alimentazione | VARCHAR(20)
+- cilindrata_motore | VARCHAR(10)
+- potenza | VARCHAR(10)
+- classe_emissione | VARCHAR(10)
+- carrozzeria | VARCHAR(255)
+- posti_disponibili | TYNYINT
+- numero_porte | TYNYINT
+- cambio | VARCHAR(20)
+- prezzo | MEDIUMINT
+- sconto | TYNYINT
+- neopatentati | TYNYINT
+- immagine_auto | VARCHAR(255)
+- numero_proprietari | TYNYINT
+- note | TEXT
 
-- (?) consumi_carburante
-- (?) equipaggiamenti
+- (?) consumi_carburante | VARCHAR(50)
+- (?) equipaggiamenti | TEXT
